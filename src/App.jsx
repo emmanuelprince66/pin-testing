@@ -14,8 +14,9 @@ function App() {
         secret
         secretDelay={100}
         onChange={(value, index) => {}}
-        type="numeric"
-        inputMode="number"
+        pattern="[0-9]*"
+        type="number"
+        inputMode="numberic"
         style={{ padding: "10px" }}
         inputStyle={{ borderColor: "red" }}
         inputFocusStyle={{ borderColor: "blue" }}
