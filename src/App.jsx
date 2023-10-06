@@ -16,7 +16,7 @@ function App() {
         onChange={(value, index) => {}}
         pattern="[0-9]*"
         type="number"
-        inputMode="numberic"
+        inputMode="numeric"
         style={{ padding: "10px" }}
         inputStyle={{ borderColor: "red" }}
         inputFocusStyle={{ borderColor: "blue" }}
